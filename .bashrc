@@ -13,4 +13,5 @@ source ~/.config/bashrc.d/git-completion.sh
 source ~/.config/bashrc.d/bashrc
 
 # cfg dotfiles repo
+# https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
 alias config='/usr/bin/git --git-dir=/home/matthew/.cfg/ --work-tree=/home/matthew'
